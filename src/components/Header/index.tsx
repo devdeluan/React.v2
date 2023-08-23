@@ -44,8 +44,9 @@ function Header(){
                 <nav>
                     <div id="menu_links" className="menu_links">
                         <Link to ='/'>Home</Link>
-                        <Link to ='ListaServicos'>serviços</Link>
-                        <Link to ='ListaDevs'>Dev's</Link>
+                        <Link to ='CadastroUsuario'>Cadastro</Link>
+                        <Link to ='ListaServicos'>Serviços</Link>
+                        <Link to ='ListaDevs'>Dev's</Link>                  
                         
                     </div>
                     <a className="header_icone_login" href="../Login/index.html">
