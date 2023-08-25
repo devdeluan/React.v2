@@ -29,6 +29,7 @@ footer {
     justify-content: end;
     align-items: center;
     position: relative;
+    margin-top: 150px;
 }
 
 .span_dicas img {

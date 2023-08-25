@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom"
 import "./style.css"
 
-export default function CradDev(props:any){
+export default function CradDev(props:any) {
+
+function parseListaTechs () {
+    if (typeof props.techs === 'string') {
+        return JSON.parse(props.techs)
+    } else {
+        return props.techs
+    }
+}
+
     return (
         <>
         <div className="dev">
@@ -14,7 +23,7 @@ export default function CradDev(props:any){
                 </div>
                 <div className="techs">
                     {
-                        props.techs.map((tech: string, index: number) => {
+                        parseListaTechs().map((tech: string, index: number) => {
                             return <span key={index}>{tech}</span>
                         })
                     }

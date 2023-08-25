@@ -64,7 +64,7 @@ const [uf, setUf ] = useState<string>('')
 
         api.post('users', formData).then( (response) => {
             console.log(response)
-            alert('User created successfull!')
+            alert('Usuario cadastrado com sucesso!')
             // Navegaçao para login // catch serve para pegar o erro
         }).catch((error) => {
             console.log(error)
