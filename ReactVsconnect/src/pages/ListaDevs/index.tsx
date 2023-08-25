@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import CradDev from "../../components/CardDev"
+import Card from "../../components/CardDev"
 import "./style.css"
 import api from "../../utils/api"
 
@@ -68,7 +68,7 @@ function listarDesenvolvedores(){
                         listaDevsFiltrados.length===0 ? 
                           devs.map((dev:any, index:number) => {
                             return <li key={index}>
-                                <CradDev
+                                <Card
                                 id={dev.id}
                                 foto={dev.user_img}
                                 nome={dev.nome}
@@ -78,7 +78,7 @@ function listarDesenvolvedores(){
                             </li>  
                           }) :  listaDevsFiltrados.map((dev:any, index:number) => {
                             return <li key={index}>
-                                <CradDev
+                                <Card
                                 id={dev.id}
                                 foto={dev.user_img}
                                 nome={dev.nome}

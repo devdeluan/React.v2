@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./style.css"
 
-export default function CradDev(props:any) {
+export default function CardDev(props:any) {
 
 function parseListaTechs () {
     if (typeof props.techs === 'string') {

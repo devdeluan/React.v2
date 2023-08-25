@@ -135,13 +135,13 @@ header {
 }
 
 header nav {
-    max-width: 550px;
+    /* max-width: 550px; */
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: var(--font1);
-    font-size: 18px;
+    font-size: 14px;
 }
 
 header nav>div {
@@ -394,4 +394,4 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {}
+/* @media screen and (max-width: 500px) {} */

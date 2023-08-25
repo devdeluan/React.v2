@@ -1,6 +1,6 @@
 import "./style.css"
 
-export default function CradServico(props:any){
+export default function CardServico(props:any){
 
     function parseListaTechs () {
         if (typeof props.techs === 'string') {
