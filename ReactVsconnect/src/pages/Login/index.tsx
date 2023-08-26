@@ -33,6 +33,9 @@ function fazerLogin (event:any) {
         //npm i react-secure-storage extensao para salvar no localstorage
         secureLocalStorage.setItem('user', response.data)
         navigate('/perfil/' + response.data.user.id)
+        
+        // Recarrega a pagina e resgate no local storage o usuario logado
+        navigate(0)
     })
     
 }

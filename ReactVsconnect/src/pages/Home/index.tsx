@@ -1,5 +1,5 @@
 import "./style.css"
-import cliente from "../../assets/img/clientes.png";
+import cliente from '../../assets/img/clientes.png';
 import maosDev from "../../assets/img/maos_dev.png";
 import alfinete from "../../assets/img/alfinete.png";
 
